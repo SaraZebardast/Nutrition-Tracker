@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">nutriTrack</string>
+    <string name="meal_search_text">Search meals…</string>
+    <string name="add_meal_text">Add Meal</string>
+    <string name="back_button_text">Back</string>
+    <string name="save_button_text">Save</string>
+    <string name="suggested_recipes_text">Suggested Recipes :)</string>
+    <string name="breakfast_text">Breakfast</string>
+    <string name="lunch_text">Lunch</string>
+    <string name="dinner_text">Dinner</string>
+    <string name="snack_text">Snack</string>
+    <string name="goal_text">Caloric Goal</string>
+    <string name="exercises_text">Exercises</string>
+    <string name="add_exercise_text">Add Exercise</string>
+    <string name="daily_stats_text">Daily Stats</string>
+    <string name="water_intake_text">Water Intake</string>
+    <string name="person_name_hint">Name</string>
+    <string name="person_age_hint">Age</string>
+    <string name="person_weight_hint">Weight</string>
+    <string name="person_height_hint">Height</string>
+    <string name="person_caloric_hint">Calorie Goal</string>
+    <string name="person_protein_hint">Protein Goal</string>
+    <string name="female_radio_button">Female</string>
+    <string name="male_radio_button">Male</string>
+    <string name="instruction_txt">Instructions</string>
+
+    <!-- Report Activity -->
+    <string name="macro_carb">Carbohydrate</string>
+    <string name="macro_pro">Protein</string>
+    <string name="macro_fat">Fat</string>
+    <string name="rate">33g</string>
+
+    <!-- Exercise Dialog -->
+    <string name="exercise_title">Select Exercise</string>
+    <string name="exercise_search">Search Exercise</string>
+    <string name="exercise_cancel_btn">Cancel</string>
+    <string name="exercise_add_btn">Add</string>
+
+    <!-- Exercise Marker Name -->
+    <string name="exercise_int">Intense</string>
+    <string name="exercise_mod">Moderate</string>
+    <string name="exercise_lig">Light</string>
+
+    <!-- Meal Item -->
+    <string name="serving_txt">Serving: </string>
+    <string name="calories_txt">Calories</string>
+    <string name="protein_txt">Protein</string>
+    <string name="carbs_txt">Carbs</string>
+    <string name="fat_txt">Fat</string>
+
+</resources>

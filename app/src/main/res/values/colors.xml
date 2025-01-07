@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Much_Soft_Eggshell_White">#EDEADE</color>
+    <color name="Soft_Eggshell_White">#F0EAD2</color>
+    <color name="Eggshell_White">#E2DABA</color>
+    <color name="Pale_Sage_Green">#DDE5B6</color>
+    <color name="Muted_Olive_Green">#ADC178</color>
+    <color name="Darker_Muted_Olive_Green">#8FA054</color>
+    <color name="Warm_Taupe_Brown">#A98467</color>
+    <color name="Deep_Mocha_Brown">#6C584C</color>
+
+    <color name="Pastel_White">#FAF9F6</color>
+    <color name="Pastel_Cream">#C2B385</color>
+    <color name="Pastel_Green">#7FA967</color>
+    <color name="Pastel_Blue">#678BAD</color>
+    <color name="Pastel_Red">#FF6F61</color>
+    <color name="Pastel_Orange">#FFA25C</color>
+    <color name="Pastel_Purple">#B39DDB</color>
+    <color name="Pastel_Pink">#F7A9B8</color>
+    <color name="offWhite">#F9F9F9</color>
+</resources>

@@ -1,0 +1,99 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Soft_Eggshell_White"
+    android:padding="16dp">
+
+    <!-- Dialog Title -->
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_title"
+        android:textColor="@color/Deep_Mocha_Brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/searchExercise"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Search Bar -->
+    <EditText
+        android:id="@+id/searchExercise"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/Warm_Taupe_Brown"
+        android:drawablePadding="8dp"
+        android:hint="@string/exercise_search"
+        android:inputType="text"
+        android:paddingHorizontal="12dp"
+        android:textColor="@color/Soft_Eggshell_White"
+        android:textColorHint="@color/Soft_Eggshell_White"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogTitle" />
+
+    <!-- Exercise List -->
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="360dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchExercise">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/exerciseRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Warm_Taupe_Brown"
+            android:clipToPadding="false"
+            android:padding="4dp"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp" />
+
+    </FrameLayout>
+
+    <!-- Buttons Container -->
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/Deep_Mocha_Brown"
+            android:text="@string/exercise_cancel_btn"
+            android:textColor="@color/Soft_Eggshell_White"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"/>
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/Muted_Olive_Green"
+            android:padding="8dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:text="@string/exercise_add_btn"
+            android:textColor="@color/Soft_Eggshell_White"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
